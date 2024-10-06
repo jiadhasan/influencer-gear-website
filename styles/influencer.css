@@ -110,6 +110,49 @@ h3{
     margin-top: 80px;
     margin-bottom: 40px;
 }
+.see{
+    color: #E02C6D;
+    font: 28px;
+   font-weight:800px ;
+   margin-top: 20px;
+}
+.featured-img{
+    width: 404px;
+    height: 270px;
+}
+.features{
+    
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.bckground-img{
+    background-color: #0A0826;
+    width:auto;
+    height: 250px;
+    padding-top: 30px;
+    margin-top: 40px;
+
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size:40px;
+    color: #FFFFFF;
+  }
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+  }
+  .footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
  /*Respondive Website*/
  @media screen and (max-width:576px) {
     .start-journey{
@@ -156,4 +199,30 @@ h3{
         align-items: center;
         
     }
+    .featured-product {
+        flex-direction: column-reverse;
+    
+    }
+    .feature-title{
+        width: 311px;
+        height: 72px;
+    }
+    .feature-description{
+        width: 329px;
+        height: 88px;
+        margin-top: 30px;
+    }
+   .featured-img{
+    width: 300px;
+    height: 188px;
+    margin-top: 20px;
+   }
+   .featured-product{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+   .btn-primary{
+    margin-top: 40px;
+   }
  }
