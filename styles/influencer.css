@@ -62,7 +62,54 @@ a{
     margin-left: 70px;
     margin-right: 70px;
   }
-
+  .img-of-logo{
+    width: 91px;
+    height: 38px;
+    margin-right: 40px;
+  }
+.logo-container{
+    box-shadow: 1px 1px 2px 2px  silver;
+    width: 1100px;
+    height: 80px;
+}
+.alignment{
+    margin-top: 70px;
+   margin-left: 165px;
+   margin-right: 165px ;
+   
+}
+.logos{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.img-collect{
+    width: 300px;
+    height: 256px;
+}
+.card{
+    box-shadow:2px 2px 2px 2px silver;
+    width: 300px;
+    height: 380px;
+    padding: 20px;
+    border-radius: 8px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.collections{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+h3{
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
  /*Respondive Website*/
  @media screen and (max-width:576px) {
     .start-journey{
@@ -72,10 +119,41 @@ a{
         text-align: center;
         margin-top: 30px;
     }
+    .influencer-title ,.poppins-bold{
+          font-weight: 800;
+          font-size: 28px;
+    }
+    .influencer-description ,.poppins-semibold{
+        font-size: 14px;
+        font-weight: 400px;
+    }
     .nav-bar{
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+    .logos{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        padding: 10px;
+        gap: 15px;
+    }
+    .img-of-logo{
+        width: 50px;
+        height: 15px;
+        margin-right: 20px;
+        
+    }
+    .logo-container{
+        width:300px ;
+        height:70px ;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+        
     }
  }
